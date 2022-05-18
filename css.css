@@ -1,6 +1,24 @@
-.perro{
-	width: 200px;
-	height: 200px;
-	background: red;
-	position: fixed;
+.fondo{
+	width: 1000px;
+	height: 1000px;
+	position: absolute;
+}
+.azul{
+	width: 1000px;
+	height: 1000px;
+	position: absolute;
+}
+.rojo{
+	width: 800px;
+	height: 800px;
+	left: 50px;
+	bottom: 50px;
+	position: absolute;
+}
+.verde{
+	width: 600px;
+	height: 600px;
+	left: 75px;
+	bottom: 75px;
+	position: absolute;
 }
