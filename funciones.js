@@ -4,7 +4,7 @@ function colocar_img(){
 	var img = document.getElementById("imagen");
 	ctx.font = "30px Arial";
 	ctx.fillStyle ="red";
-	ctx.fillText("Hola",5,5);
+	ctx.fillText("Hola",15,15);
 	
 	ctx.drawImage(img,5,5);
 	
