@@ -6,13 +6,14 @@
   <link rel="stylesheet" type="text/css" href="css.css">
 </head>
 <body>
-<div class="Prueba1">
-  <div >
-    <img class="fondo" src="Imagenes/fondo.png">
-    <div class="azul"><img class="azul" src="Imagenes/azul.png">
-    <div class="rojo"><img class="rojo" src="Imagenes/rojo.png">
-    <div class="verde"><img class="verde" src="Imagenes/verde.png"></div></div></div>
-  </div>
+  <img id ="imagen" class="fondo" src="Imagenes/fondo.png"><div></div>
+<canvas id="micanvas" width="1000" height="1000" style="border: 1px solid #000000;">
+</canvas>
+<button type="button" name="button" onclick="javascript:colocar_img();">Colocar Img</button>
+<button type="button" name="savebtn" onclick="javascript:guardar_canvas_local();">guardar</button>
+
+<div id="mensaje" class="">
 </div>
 </body>
+<script src="funciones.js"></script>
 </html>
